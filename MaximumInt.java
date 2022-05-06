@@ -1,7 +1,6 @@
 package COM.BRIDGELABZ;
 
 public class MaximumInt {
-
     public static <T extends Comparable<T>> T getMaxInt(T P, T Q, T R) {
             T max = P;
 
@@ -15,6 +14,10 @@ public class MaximumInt {
             return max;
         }
 
+        public int MaxInt(int max){
+
+            return max;
+        }
         public static void main(String[] args) {
 
 
